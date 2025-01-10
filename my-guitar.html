@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Projects</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/jquery-3.7.1.min.js"></script>
+    <script defer src="js/jquery.zoom.js"></script>
+    <script defer src="js/zoomer.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <nav id="header">
+      <a href="index.html" class="navitem">Home</a>
+      <a href="my-guitar.html" class="navitem curr">Music</a>
+      <a href="projects.html" class="navitem">Projects</a>
+      <a href="contact.html" class="navitem">Contact</a>
+    </nav>
+    <div id="guitarImgs">
+      <span class="zoomSpan" id="frontSpan" style="display:inline-block">
+          <img class="guitarImg" id="guitarFront" src="img/guitar-front.png"/>
+      </span>
+      <span class="zoomSpan" id="backSpan" style="display:inline-block">
+          <img class="guitarImg" id="guitarBack" src="img/guitar-back.png"/>
+      </span>
+      <span id="hoverZoom">Hover to Zoom</span>
+  </div>
+    <p id="footer">© Robert Strong, Anno Domini M. M. XXV.</p>
+  </div>
+</body>

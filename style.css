@@ -41,7 +41,7 @@ html,body {
 .navitem {
   text-decoration: none;
   color: black;
-  font-size:2.5vh;
+  font-size:1.15vw;
   margin: 0 2vw;
   font-weight: bold;
 }
@@ -132,7 +132,7 @@ html,body {
 }
 .projTitle {
   text-align: center;
-  font-size: .9em;
+  font-size: .95vw;
   margin: 0;
   padding:.5vh 0 1vh;
   border-bottom: 2px black solid;
@@ -155,22 +155,62 @@ html,body {
   width: 100%;
   height: 100%;
   display: table;
+  z-index: 10;
   position: relative;
 }
-/* .project:hover .text {
+.project:hover .overlay {
   opacity: 1;
 }
-.text {
+.overlay {
   position: absolute;
   height: 11.25vw;
   width: 20vw;
   top: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.8);
+}
+.text {
+  height: 11.25vw;
+  width: 19vw;
+  margin: 5% auto;
   color: white;
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 1em;
+  font-size: 1.1vw;
   font-family: 'Italic';
-} */
+}
+.illuminatedTerm {
+  z-index: 100;
+  color:rgb(228, 47, 47);
+}
+.illuminatedTerm:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* GUITARS */
+#guitarImgs {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+}
+.guitarImg {
+  height:65vh;
+  margin: 2vh auto;
+  float: right;
+}
+#hoverZoom {
+  position: absolute;
+  align-self: end;
+  margin-bottom:.5vh;
+  color:black;
+  opacity: 1;
+  z-index: 1;
+  font-weight: bold;
+  pointer-events: none;
+}
+.zoom-span {
+  z-index: 0;
+}
