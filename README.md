@@ -1,1 +1,1 @@
-My WIP cool and new personal website and portfolio.
+My WIP cool and new personal website.
