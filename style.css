@@ -41,7 +41,7 @@ html,body {
 .navitem {
   text-decoration: none;
   color: black;
-  font-size:1.25em;
+  font-size:1.15vw;
   margin: 0 2vw;
   font-weight: bold;
 }
@@ -62,7 +62,7 @@ html,body {
   font-size: 2em;
 }
 #footer {
-  font-size: .87em;
+  font-size: .76vw;
   font-weight: bold;
   position: absolute;
   bottom: 10.25vh;
@@ -83,7 +83,7 @@ html,body {
   margin: -2vh 0 0;
   text-align: center;
   font-family: 'Italic';
-  font-size: 1.5em;
+  font-size: 1.5vw;
 }
 #header-main {
   margin-top: 7vh;
