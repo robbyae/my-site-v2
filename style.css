@@ -47,7 +47,7 @@ html,body {
 }
 .navitem:hover {
   text-decoration: underline;
-  /* color:#a50202; */
+  color:#a50202;
   text-decoration-thickness: 2px;
 }
 .title {
@@ -146,6 +146,7 @@ html,body {
 .projLink:hover {
   text-decoration:underline;
   text-decoration-thickness: 2px;
+  color:#a50202;
 }
 .cblog {
   border: 0px solid black;
@@ -158,7 +159,7 @@ html,body {
   z-index: 10;
   position: relative;
 }
-.project:hover .overlay {
+.projLink:hover .overlay {
   opacity: 1;
 }
 .overlay {
@@ -213,4 +214,33 @@ html,body {
 }
 .zoom-span {
   z-index: 0;
+}
+
+/* MUSIC */
+#music {
+  width: 50vw;
+  height: 68vh;
+  margin: 2.5vh auto 0;
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  column-gap: 3vw;
+  justify-content: center;
+  text-align: center;
+}
+#musicHead {
+  text-align: center;
+}
+
+/* CONTACT */
+#harmonia {
+  width:25vw;
+  position: absolute;
+  margin-inline: auto; 
+  left: 0;
+  right: 0;
+  bottom: 13.85vh;
+  margin-bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
