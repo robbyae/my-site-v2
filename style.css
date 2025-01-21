@@ -251,23 +251,30 @@ html,body {
 @media only screen and (max-width: 1000px) {
   #main {
     width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
+    height: auto;
+    min-height: 100vh;
     margin: 0 auto;
     background-image: none;
     background-color: white;
   }
+  #musicians {
+    display: none;
+  }
   #lutenist {
-    width: 90vw;
+    width: 100vw;
     position: absolute;
     margin-inline: auto; 
     left: 0;
     right: 0;
-    bottom: 13.85vh;
+    bottom: 7vh;
+    margin-top: 0;
     margin-bottom: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  #home {
+    padding-top: 8vh;
   }
   #name {
     font-size: 3em;
@@ -277,9 +284,49 @@ html,body {
     font-size: 1.2em;
   }
   #header-main {
-    font-size: 20px;
+    margin-top: 2vh;
   }
-  #navitem {
-    font-size: 60px;
+  #header {
+    padding-top: 4vh;
+  }
+  #footer {
+    font-size: 3vw;
+    bottom: 2vh;
+  }
+  .projfooter {
+    font-size: 3vw;
+    bottom: 2vh;
+    position: relative !important;
+    margin-bottom: 0;
+  }
+  .navitem {
+    font-size: 5vw;
+  }
+  /* PROJECTS */
+  #projects {
+    width: 72vw;
+    height: 100vh;
+    margin: 2.5vh auto;
+    display: grid;
+    grid-template-columns: 72vw;
+    column-gap: 3vw;
+    justify-content: center;
+  }
+  .projImg {
+    width: 72vw;
+  }
+  .projTitle {
+    text-align: center;
+    font-size: 4vw;
+    margin: 0;
+    padding:.5vh 0 1vh;
+    border-bottom: 2px black solid;
+    font-weight: bold;
+  }
+  .overlay {
+    display: none;
+  }
+  .text {
+    display: none;
   }
 }
