@@ -41,7 +41,7 @@ html,body {
 .navitem {
   text-decoration: none;
   color: black;
-  font-size:1.15vw;
+  font-size:16px;
   margin: 0 2vw;
   font-weight: bold;
 }
@@ -62,7 +62,7 @@ html,body {
   font-size: 2em;
 }
 #footer {
-  font-size: .76vw;
+  font-size: 10px;
   font-weight: bold;
   position: absolute;
   bottom: 10.25vh;
@@ -135,7 +135,7 @@ html,body {
 }
 .projTitle {
   text-align: center;
-  font-size: .95vw;
+  font-size:12px;
   margin: 0;
   padding:.5vh 0 1vh;
   border-bottom: 2px black solid;
@@ -181,7 +181,7 @@ html,body {
   width: 19vw;
   margin: 5% auto;
   color: white;
-  font-size: 1.1vw;
+  font-size: 14px;
   font-family: 'Italic';
 }
 .illuminatedTerm {
