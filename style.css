@@ -310,6 +310,9 @@ html,body {
     column-gap: 3vw;
     justify-content: center;
   }
+  .project {
+    margin-bottom:2vh;
+  }
   .projImg {
     width: 72vw;
   }
