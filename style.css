@@ -294,10 +294,8 @@ html,body {
     bottom: 2vh;
   }
   .projfooter {
-    font-size: 3vw;
-    bottom: 2vh;
     position: relative !important;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
   .navitem {
     font-size: 5vw;
