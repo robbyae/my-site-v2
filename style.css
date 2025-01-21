@@ -303,7 +303,7 @@ html,body {
   /* PROJECTS */
   #projects {
     width: 72vw;
-    height: 100vh;
+    height: auto;
     margin: 2.5vh auto;
     display: grid;
     grid-template-columns: 72vw;
