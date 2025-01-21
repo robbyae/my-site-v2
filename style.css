@@ -27,7 +27,7 @@ html,body {
   margin: 0 auto;
   background-image: url("./img/bg2.png");
   background-repeat: no-repeat;
-  background-size: 64vw 100vh;
+  background-size: 100vw 100vh;
 }
 #home {
   padding-top: 12vh;
@@ -108,6 +108,9 @@ html,body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+#lutenist {
+  display: none;
 }
 
 /* CURRENT PAGE */
@@ -243,4 +246,40 @@ html,body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  #main {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0 auto;
+    background-image: none;
+    background-color: white;
+  }
+  #lutenist {
+    width: 90vw;
+    position: absolute;
+    margin-inline: auto; 
+    left: 0;
+    right: 0;
+    bottom: 13.85vh;
+    margin-bottom: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #name {
+    font-size: 3em;
+  }
+  #subname {
+    margin: 1.3vh;
+    font-size: 1.2em;
+  }
+  #header-main {
+    font-size: 20px;
+  }
+  #navitem {
+    font-size: 60px;
+  }
 }
