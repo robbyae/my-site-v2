@@ -213,17 +213,43 @@ html,body {
 
 /* MUSIC */
 #music {
+  max-width: fit-content;
   width: 50vw;
   height: 68vh;
-  margin: 2.5vh auto 0;
   display: grid;
   grid-template-columns: 20vw 20vw;
+  grid-template-rows: 14vh;
   column-gap: 3vw;
   justify-content: center;
-  text-align: center;
+  margin: 2vh auto;
+  font-size: 18px;
+  text-decoration-thickness: 1px;
 }
-#musicHead {
-  text-align: center;
+#guitar {
+  margin: 0 auto;
+}
+#concertina {
+  margin: 0 auto;
+}
+.music-head {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.composer-name {
+  
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+.music-download {
+  color: #a50202;;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  font-weight: 500;
+}
+.music-sub {
+  margin-bottom: 2vh;
 }
 
 /* CONTACT */
