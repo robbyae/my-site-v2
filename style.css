@@ -352,8 +352,10 @@ html,body {
   #music {
     grid-template-columns: 95vw;
     grid-template-rows: auto;
+    
   }
   #concertina {
+    background-color: white;
     margin: 0;
   }
   .music-footer {
