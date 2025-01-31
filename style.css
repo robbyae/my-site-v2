@@ -224,6 +224,7 @@ html,body {
   margin: 2vh auto;
   font-size: 18px;
   text-decoration-thickness: 1px;
+  line-height: 24px;
 }
 #guitar {
   margin: 0 auto;
