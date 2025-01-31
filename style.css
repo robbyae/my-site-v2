@@ -352,6 +352,6 @@ html,body {
   #music {
     grid-template-columns: 95vw;
     grid-template-rows: auto;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
   }
 }
