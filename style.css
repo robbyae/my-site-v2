@@ -127,7 +127,7 @@ html,body {
 }
 .projTitle {
   text-align: center;
-  font-size: .95vw;
+  font-size: 1vw;
   margin: 0;
   padding:.5vh 0 1vh;
   border-bottom: 2px black solid;
@@ -173,7 +173,7 @@ html,body {
   width: 19vw;
   margin: 5% auto;
   color: white;
-  font-size: 1vw;
+  font-size: 1.1vw;
   font-family: 'Italic';
 }
 .illuminatedTerm {
@@ -222,9 +222,9 @@ html,body {
   column-gap: 3vw;
   justify-content: center;
   margin: 2vh auto;
-  font-size: 0.9vw;
+  font-size: 1vw;
   text-decoration-thickness: 1px;
-  line-height: 24px;
+  line-height: 2.25vh;
 }
 #guitar {
   margin: 0 auto;
