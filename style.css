@@ -35,13 +35,14 @@ html,body {
   text-decoration: none;
   color: black;
   font-size:1.15vw;
-  margin: 0 2vw;
+  margin: 0 2.1vw;
   font-weight: bold;
 }
 .navitem:hover {
   text-decoration: underline;
   color:#a50202;
   text-decoration-thickness: 2px;
+  cursor:pointer;
 }
 .title {
   text-align: center;
@@ -361,4 +362,8 @@ html,body {
   .music-footer {
     display: none;
   }
+}
+
+.hidden {
+  display:none;
 }
