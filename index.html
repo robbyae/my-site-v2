@@ -19,18 +19,20 @@
 
 <body>
   <div id="main">
-    <div id="active-page">
-      <div id="home">
-        <h1 id="name">Robert Strong</h1>
-        <nav id="header-main">
-          <span class="home-nav navitem">Home</span><span class="proj-nav navitem">Projects</span><span class="music-nav navitem">Music</span><span class="contact-nav navitem">Contact</span>
-        </nav>
-          <!-- <img src="img/lutenist.png" id="lutenist" /> -->
-          <img src="img/musicians.png" id="musicians" alt="Musicians from Carminum pro Testudine Liber IIII"/>
-          <img src="img/lutenist.png" id="lutenist" alt="Lutenist from Carminum pro Testudine Liber IIII"/>   
+    <div class="flex">
+      <div id="active-page">
+        <div id="home">
+          <h1 id="name">Robert Strong</h1>
+          <nav id="header-main">
+            <span class="home-nav navitem">Home</span><span class="proj-nav navitem">Projects</span><span class="music-nav navitem">Music</span><span class="contact-nav navitem">Contact</span>
+          </nav>
+            <!-- <img src="img/lutenist.png" id="lutenist" /> -->
+            <img src="img/musicians.png" id="musicians" alt="Musicians from Carminum pro Testudine Liber IIII"/>
+            <img src="img/lutenist.png" id="lutenist" alt="Lutenist from Carminum pro Testudine Liber IIII"/>   
+          </div>
         </div>
-      </div>
-    <p id="footer">© Robert Strong, Anno Domini M. M. XXV.</p>
+      <p id="footer">© Robert Strong, Anno Domini M. M. XXV.</p>
+    </div>
   </div>
 </body>
 
@@ -47,7 +49,7 @@
   </div>
 </div>
 
-<div id="music-container">
+<div class="hidden" id="music-container">
   <nav id="header">
     <span class="home-nav navitem">Home</span><span class="proj-nav navitem">Projects</span><span class="music-nav navitem curr">Music</span><span class="contact-nav navitem">Contact</span>
   </nav>
@@ -93,10 +95,14 @@
         <br>
         • Ständchen (Serenade), D.957 No.4 | <a href="music/concertina-music/serenade-schubert-concertina.pdf" class="music-download">Sheet</a>
       </div>
-  </div> 
+      <div class="music-sub"><span class="composer-name">Scottish Traditional</span>
+        <br>
+        • The Lothian Lassie, or Last May a braw Wooer | <a href="music/concertina-music/lothian-lassie-concertina.pdf" class="music-download">Sheet</a>
+      </div>
+  </div>
 </div>
 
-<div id="projects-container">
+<div class="hidden" id="projects-container">
   <nav id="header">
     <span class="home-nav navitem">Home</span><span class="proj-nav navitem curr">Projects</span><span class="music-nav navitem">Music</span><span class="contact-nav navitem">Contact</span>
   </nav>
@@ -126,7 +132,7 @@
   </div>
 </div>
 
-<div id="contact-container">
+<div class="hidden" id="contact-container">
   <nav id="header">
     <span class="home-nav navitem">Home</span><span class="proj-nav navitem">Projects</span><span class="music-nav navitem">Music</span><span class="contact-nav navitem curr">Contact</span>
   </nav>

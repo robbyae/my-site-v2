@@ -58,10 +58,10 @@ html,body {
 #footer {
   font-size: .76vw;
   font-weight: bold;
-  position: absolute;
-  bottom: 10.25vh;
   margin-left: auto;
   margin-right: auto;
+  position: absolute;
+  bottom:10.25vh;
   left: 0;
   right: 0;
   text-align: center;
@@ -219,11 +219,11 @@ html,body {
   width: 50vw;
   height: 68vh;
   display: grid;
-  grid-template-columns: 22vw 22vw;
+  grid-template-columns: 24vw 24vw;
   grid-template-rows: 14vh;
-  column-gap: 1vw;
+  column-gap: .5vw;
   justify-content: center;
-  margin: 2vh auto;
+  margin: 2vh auto 0;
   font-size: 1vw;
   text-decoration-thickness: 1px;
   line-height: 2.25vh;
@@ -287,7 +287,7 @@ html,body {
     margin-inline: auto; 
     left: 0;
     right: 0;
-    bottom: 7vh;
+    bottom: 10vh;
     margin-top: 0;
     margin-bottom: 0;
     display: block;
@@ -310,16 +310,17 @@ html,body {
   #header {
     padding-top: 4vh;
   }
-  #footer {
-    font-size: 3vw;
-    bottom: 2vh;
-  }
+
   .projfooter {
     position: relative !important;
     margin-bottom: 0 !important;
   }
   .navitem {
-    font-size: 5vw;
+    font-size:6vw;
+    white-space: pre;
+  }
+  .home-nav {
+    display: none;
   }
   /* PROJECTS */
   #projects {
@@ -351,10 +352,23 @@ html,body {
   .text {
     display: none;
   }
+  #footer {
+    font-size: 3.5vw;
+    position: inherit;
+  }
   #music {
-    grid-template-columns: 95vw;
+    height: auto;
+    grid-template-columns: 90vw;
     grid-template-rows: auto;
-    
+    width: auto;
+    font-size: 4.4vw;
+    line-height: 1.15;
+  }
+  .music-head {
+    margin: 0 0 1vh;
+  }
+  #guitar {
+    margin: 0;
   }
   #concertina {
     margin: 0;
@@ -365,5 +379,16 @@ html,body {
 }
 
 .hidden {
+  display:none;
+}
+
+.flex {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mobile-nav {
   display:none;
 }
