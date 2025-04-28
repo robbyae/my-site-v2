@@ -6,6 +6,10 @@
   font-family: 'Italic';
   src: url(../fonts/IMFellEnglish-Italic.ttf);
 }
+@font-face {
+  font-family: 'EB Garamond';
+  src: url(../fonts/EBGaramond-VariableFont_wght.ttf);
+}
 html,body {
   border: none;
 	margin: 0;
@@ -13,7 +17,7 @@ html,body {
   background-color: black;
   font-family: 'English';
 }
-#main {
+#default {
   width: 64vw;
   height: 100vh;
   margin: 0 auto;
@@ -44,17 +48,20 @@ html,body {
   text-decoration-thickness: 2px;
   cursor:pointer;
 }
+.home-nav {
+  display: none;
+}
 .title {
   text-align: center;
   font-size: 5em;
   margin: -1vh 0 0;
 }
-.sub {
+/* .sub {
   margin: -2vh 0 0;
   text-align: center;
   font-family: 'Italic';
   font-size: 2em;
-}
+} */
 #footer {
   font-size: .76vw;
   font-weight: bold;
@@ -79,8 +86,8 @@ html,body {
   font-family: 'Italic';
   font-size: 1.5vw;
 } */
-#header-main {
-  margin-top: 7vh;
+#nav-main {
+  margin-top: 5.8vh;
   text-align: center;
   font-family: 'Italic';
 }
@@ -213,22 +220,39 @@ html,body {
   z-index: 0;
 }
 
-/* MUSIC */
-#music {
+/* LESSONS */
+#lessons-content {
   max-width: fit-content;
-  width: 50vw;
+  font-family: 'English';
+  font-weight: 500;
+  width: 48vw;
   height: 68vh;
-  display: grid;
-  grid-template-columns: 24vw 24vw;
-  grid-template-rows: 14vh;
   column-gap: .5vw;
   justify-content: center;
-  margin: 2vh auto 0;
-  font-size: 1vw;
+  font-size: 1.1vw;
   text-decoration-thickness: 1px;
-  line-height: 2.25vh;
+  line-height: 2.7vh;
+  display: flex;
+  flex-direction: row;
+  margin: 6vh auto 0;
 }
-#guitar {
+.lessons-img {
+  width: auto;
+  margin-top: -10vh;
+  align-self: center;
+  height: 82%;
+  float: right;
+}
+.red {
+  color: #a50202;
+  text-decoration: none;
+}
+.red:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  cursor:pointer;
+}
+/* #guitar {
   margin: 0 auto;
 }
 #concertina {
@@ -253,10 +277,10 @@ html,body {
 }
 .music-sub {
   margin-bottom: 2vh;
-}
+} */
 
 /* CONTACT */
-#harmonia {
+/* #harmonia {
   width:25vw;
   position: absolute;
   margin-inline: auto; 
@@ -267,10 +291,10 @@ html,body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 @media only screen and (max-width: 1000px) {
-  #main {
+  #default {
     width: 100vw;
     height: auto;
     min-height: 100vh;
@@ -319,9 +343,6 @@ html,body {
     font-size:6vw;
     white-space: pre;
   }
-  .home-nav {
-    display: none;
-  }
   /* PROJECTS */
   #projects {
     width: 72vw;
@@ -356,13 +377,23 @@ html,body {
     font-size: 3.5vw;
     position: inherit;
   }
-  #music {
+  #lessons-content {
+    width: 90vw;
     height: auto;
-    grid-template-columns: 90vw;
-    grid-template-rows: auto;
-    width: auto;
-    font-size: 4.4vw;
-    line-height: 1.15;
+    column-gap: .5vw;
+    justify-content:space-between;
+    font-size: 5vw;
+    text-decoration-thickness: 1px;
+    line-height:3.15vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .lessons-img {
+    margin-top:0;
+    align-self: center;
+    width: 100%;
+    height: auto;
   }
   .music-head {
     margin: 0 0 1vh;

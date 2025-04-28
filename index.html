@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>Robert Strong</title>
+    <title>Robby Strong — Classical Guitar Lessons</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Robert Strong">
-    <meta name="description" content="Guitarist, Concertinist & Designer">
+    <meta name="description" content="Guitar Lessons in Birmingham, Alabama">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
-    <script defer src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script defer src="js/main.js"></script>
 </head>
 
 <body>
-  <div id="main">
+  <div id="default">
     <div class="flex">
       <div id="active-page">
         <div id="home">
           <h1 id="name">Robert Strong</h1>
-          <nav id="header-main">
-            <span class="home-nav navitem">Home</span><span class="proj-nav navitem">Projects</span><span class="music-nav navitem">Music</span><span class="contact-nav navitem">Contact</span>
+          <nav id="nav-main">
+            <span class="home-nav navitem">Home</span><span class="proj-nav navitem">Projects</span><span class="music-nav navitem">Lessons</span><span class="contact-nav navitem">Contact</span>
           </nav>
-            <!-- <img src="img/lutenist.png" id="lutenist" /> -->
             <img src="img/musicians.png" id="musicians" alt="Musicians from Carminum pro Testudine Liber IIII"/>
             <img src="img/lutenist.png" id="lutenist" alt="Lutenist from Carminum pro Testudine Liber IIII"/>   
           </div>
@@ -36,83 +35,41 @@
   </div>
 </body>
 
+<main class="hidden" id="lessons-container">
+  <nav id="header">
+    <span class="home-nav navitem">Home</span><span class="music-nav navitem curr">Lessons</span><span class="proj-nav navitem">Projects</span><span class="contact-nav navitem">Contact</span>
+  </nav>
+  <div id="lessons-content">
+    <p>Hello! I am a classical guitarist based in Birmingham, Alabama. I teach classical and fingerstyle guitar to students of all ages with an emphasis on creativity and musicality.
+    <br><br>Learn to play classical masterpieces, compose, arrange, and improvise!<br><br>Classical guitar skills give the player a strong foundation and are highly transferable to other styles of playing!
+    <br><br>
+    In-person and remote lessons.
+    <br><br>
+    Listen to my recordings on <a class='red' href="https://www.youtube.com/watch?v=_vhEQlQl_HA" target="_blank">YouTube</a>.
+    <br><br>
+    Contact:
+    <br>
+    <span style="color:#a50202">robbyastrong@gmail.com</span>
+    </p>
+    <img class="lessons-img" src="img/portrait-2.jpg" alt="Robby Strong"></img>
+  </div>
+</main>
+
 <div class="hidden" id="home-container">
   <div id="home">
     <h1 id="name">Robert Strong</h1>
-    <nav id="header-main">
-      <span class="home-nav navitem">Home</span><span class="proj-nav navitem">Projects</span><span class="music-nav navitem">Music</span><span class="contact-nav navitem">Contact</span>
+    <nav id="nav-main">
+      <span class="home-nav navitem">Home</span><span class="music-nav navitem">Lessons</span><span class="proj-nav navitem">Projects</span><span class="contact-nav navitem">Contact</span>
     </nav>
-      <!-- <img src="img/lutenist.png" id="lutenist" /> -->
       <img src="img/musicians.png" id="musicians" alt="Musicians from Carminum pro Testudine Liber IIII"/>
       <img src="img/lutenist.png" id="lutenist" alt="Lutenist from Carminum pro Testudine Liber IIII"/>   
     </div>
   </div>
 </div>
 
-<div class="hidden" id="music-container">
-  <nav id="header">
-    <span class="home-nav navitem">Home</span><span class="proj-nav navitem">Projects</span><span class="music-nav navitem curr">Music</span><span class="contact-nav navitem">Contact</span>
-  </nav>
-  <div id="music">
-    <div id="guitar">
-      <h2 class="music-head">Guitar</h2>
-        <div class="music-sub"><span class="composer-name">Chesnokov, Pavel</span>
-          <br>
-          • Тебе поем (We Praise Thee) | <a href="music/guitar-music/Chesnokov-We-Praise-Thee.pdf"  class="music-download">Sheet</a> | <a href="music/guitar-music/Chesnokov-We-Praise-Thee-tab.pdf"  class="music-download">Tab</a>
-          </div>
-          <div class="music-sub"><span class="composer-name">Chopin, Frédéric</span>
-              <br>
-              • Waltz Sostenuto, B.133 | <a href="music/guitar-music/chopin-b133.pdf"  class="music-download">Sheet</a> | <a href="music/guitar-music/chopin-b133-tab.pdf"  class="music-download">Tab</a>
-          </div>
-          <div class="music-sub"><span class="composer-name">Gretchaninoff, Aleksandr</span>
-              <br>
-              • Après le bal, Op.98 No.13 | <a href="music/guitar-music/Gretchaninoff-Après-le-bal.pdf"  class="music-download">Sheet</a> | <a href="music/guitar-music/Gretchaninoff-Après-le-bal-tab.pdf"  class="music-download">Tab</a>
-              <br>
-              • Que ne suis-je grand!, Op.98 No.15 | <a href="music/guitar-music/Que-ne-suis-je-grand!.pdf"  class="music-download">Sheet</a> | <a href="music/guitar-music/Que-ne-suis-je-grand!-tab.pdf"  class="music-download">Tab</a>
-          </div>
-          <div class="music-sub"><span class="composer-name">Monteverdi, Claudio</span>
-              <br>
-              • Chiome d'oro, bel thesoro, SV 143 | <a href="music/guitar-music/Monteverdi-SV-143.pdf"  class="music-download">Sheet</a> | <a href="music/guitar-music/Monteverdi-SV-143-tab.pdf"  class="music-download">Tab</a>
-          </div>
-          <div class="music-sub"><span class="composer-name">Mount & Blade — Jesse Hopkins</span>
-              <br>
-              • Lord's Hall Swadian | <a href="music/guitar-music/Lords-Hall-Swadian.pdf"  class="music-download">Sheet</a> | <a href="music/guitar-music/Lords-Hall-Swadian-tab.pdf"  class="music-download">Tab</a>
-          </div>
-          <div class="music-sub"><span class="composer-name">O'Carolan, Turlough</span>
-              <br>
-              • Eleanor Plunkett | <a href="music/guitar-music/eleanor-plunkett.pdf" class="music-download">Sheet</a> | <a href="music/guitar-music/eleanor-plunkett-tab.pdf"  class="music-download">Tab</a>
-          </div>
-          <!-- <div class="music-sub"><span class="composer-name">Scottish Traditional</span>
-            <br>
-            • The Lothian Lassie, or Last May a braw Wooer | <a href="music/guitar-music/lothian-lassie-guitar.pdf" class="music-download">Sheet</a> | <a href="music/guitar-music/lothian-lassie-guitar-tab.pdf" class="music-download">Tab</a>
-            <br>
-            • For the sake o' Somebody | <a href="music/concertina-music/for-the-sake-o-somebody.pdf" class="music-download">Sheet</a>
-          </div> -->
-    </div>
-    <div id="concertina">
-      <h2 class="music-head">Concertina</h2>
-      <div class="music-sub"><span class="composer-name">The Legend of Zelda</span>
-        <br>
-        • Shooting Gallery from Ocarina of Time | <a href="music/concertina-music/shooting-gallery-oot.pdf" class="music-download">Sheet</a>
-      </div>
-      <div class="music-sub"><span class="composer-name">Schubert, Franz</span>
-        <br>
-        • Ave Maria, D.839 | <a href="music/concertina-music/avemaria-schubert-concertina.pdf" class="music-download">Sheet</a>
-        <br>
-        • Ständchen (Serenade), D.957 No.4 | <a href="music/concertina-music/serenade-schubert-concertina.pdf" class="music-download">Sheet</a>
-      </div>
-      <div class="music-sub"><span class="composer-name">Scottish Traditional</span>
-        <br>
-        • The Lothian Lassie, or Last May a braw Wooer | <a href="music/concertina-music/lothian-lassie-concertina.pdf" class="music-download">Sheet</a>
-        <br>
-        • For the sake o' Somebody | <a href="music/concertina-music/for-the-sake-o-somebody.pdf" class="music-download">Sheet</a>
-      </div>
-  </div>
-</div>
-
 <div class="hidden" id="projects-container">
   <nav id="header">
-    <span class="home-nav navitem">Home</span><span class="proj-nav navitem curr">Projects</span><span class="music-nav navitem">Music</span><span class="contact-nav navitem">Contact</span>
+    <span class="home-nav navitem">Home</span><span class="music-nav navitem">Lessons</span><span class="proj-nav navitem curr">Projects</span><span class="contact-nav navitem">Contact</li>
   </nav>
   <div id="projects">
     <!-- <div class="project"><a href="https://robbyae.github.io/hagia-sophia-mosaic/" target="_blank" class="projLink">
@@ -148,7 +105,7 @@
 
 <div class="hidden" id="contact-container">
   <nav id="header">
-    <span class="home-nav navitem">Home</span><span class="proj-nav navitem">Projects</span><span class="music-nav navitem">Music</span><span class="contact-nav navitem curr">Contact</span>
+    <span class="home-nav navitem">Home</span><span class="music-nav navitem">Lessons</span><span class="proj-nav navitem">Projects</span><span class="contact-nav navitem curr">Contact</span>
   </nav>
   <h2 style="text-align: center; margin-top:20vh; color:#a50202">robbyastrong@gmail.com</h2>
   <!-- <img id="harmonia" src="img/harmonia-est-disordia-concors.png"/> -->
