@@ -293,6 +293,31 @@ html,body {
   margin-right: auto;
 } */
 
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+  #default {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url("./img/bg2.webp");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  #musicians {
+    width: auto;
+    max-width: 80vw;
+    z-index: 0;
+    max-height: 48vh;
+  }
+  #name {
+    margin-top: 2vh;
+    font-size: 6.5em;
+  }
+  #nav-main {
+    margin-top: 2vh;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   #default {
     width: 100vw;
