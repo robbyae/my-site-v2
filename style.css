@@ -126,17 +126,17 @@ html,body {
   height: 68vh;
   margin: 2.5vh auto 0;
   display: grid;
-  grid-template-columns: 20vw 20vw;
+  grid-template-columns: 40% 40%;
   column-gap: 3vw;
   justify-content: center;
 }
 .projImg {
-  width: 20vw;
+  width: 100%;
   margin: 0;
 }
 .projTitle {
   text-align: center;
-  font-size: 1vw;
+  font-size: 18px;
   margin: 0;
   padding:.5vh 0 1vh;
   border-bottom: 2px black solid;
@@ -229,7 +229,7 @@ html,body {
   height: 68vh;
   column-gap: .5vw;
   justify-content: center;
-  font-size: 1.1vw;
+  font-size: 20px;
   text-decoration-thickness: 1px;
   line-height: 2.7vh;
   display: flex;
@@ -316,6 +316,12 @@ html,body {
   #nav-main {
     margin-top: 2vh;
   }
+  #lessons-content {
+    width: 70vw;
+  }
+  #projects {
+    width: 75vw;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -386,7 +392,7 @@ html,body {
   }
   .projTitle {
     text-align: center;
-    font-size: 4vw;
+    font-size: 18px;
     margin: 0;
     padding:.5vh 0 1vh;
     border-bottom: 2px black solid;
@@ -407,7 +413,6 @@ html,body {
     height: auto;
     column-gap: .5vw;
     justify-content:space-between;
-    font-size: 5vw;
     text-decoration-thickness: 1px;
     line-height:3.15vh;
     margin: 0 auto;
