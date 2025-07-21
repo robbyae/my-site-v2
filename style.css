@@ -27,7 +27,7 @@ html,body {
   background-size: 64vw 100vh;
 }
 #home {
-  padding-top: 13vh;
+  padding-top: 12.5vh;
 }
 #header {
   padding-top: 12.5vh;
@@ -84,7 +84,7 @@ html,body {
   font-size: 1.5vw;
 } */
 #nav-main {
-  margin-top: 5.3vh;
+  margin-top: 5.1vh;
   text-align: center;
   font-family: 'Italic';
 }
@@ -101,7 +101,7 @@ html,body {
   margin-inline: auto; 
   left: 0;
   right: 0;
-  bottom: 13.85vh;
+  bottom: 14vh;
   margin-bottom: 0;
   display: block;
   margin-left: auto;
